@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Dice Roller WatchKit App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>Dice Roller.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>Notification - Dice Roller WatchKit App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>C38474D01BBB9B91009E8331</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C38474E41BBB9B91009E8331</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C38474EF1BBB9B91009E8331</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C38474F81BBB9B91009E8331</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
