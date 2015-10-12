@@ -1,16 +1,47 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6724" systemVersion="14A389" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="uYz-Ew-YHf">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6711"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3735"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="8092"/>
     </dependencies>
     <scenes>
-        <!--Interface Controller-->
-        <scene sceneID="aou-V4-d1y">
+        <!--Main ScreenIC-->
+        <scene sceneID="83N-jj-CeA">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModuleProvider="target"/>
+                <controller hidesWhenLoading="NO" id="uYz-Ew-YHf" customClass="MainScreenIC" customModule="Dice_Roller_WatchKit_Extension">
+                    <items>
+                        <group width="1" alignment="left" layout="vertical" id="KY6-53-dFH">
+                            <items>
+                                <button width="1" alignment="left" title="Add Roll" id="0m6-dq-Kox">
+                                    <connections>
+                                        <segue destination="gGo-IM-Fc1" kind="push" id="d0E-IF-TM6"/>
+                                    </connections>
+                                </button>
+                                <table alignment="left" id="TBs-g4-2BU">
+                                    <items>
+                                        <tableRow identifier="cell" id="YHf-D3-0h4" customClass="rollRow" customModule="Dice_Roller_WatchKit_Extension">
+                                            <group key="rootItem" width="1" alignment="left" id="z5G-Zu-MQ4">
+                                                <items>
+                                                    <label width="0.5" height="1" alignment="left" text="4" id="xgq-yV-Mua"/>
+                                                    <label width="0.5" height="1" alignment="left" text="D6" id="Thm-Ez-75P"/>
+                                                </items>
+                                            </group>
+                                            <connections>
+                                                <outlet property="qtyLabel" destination="xgq-yV-Mua" id="FiN-xv-nys"/>
+                                                <outlet property="sidesLabel" destination="Thm-Ez-75P" id="6Ki-yg-0Em"/>
+                                            </connections>
+                                        </tableRow>
+                                    </items>
+                                </table>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="theTable" destination="TBs-g4-2BU" id="JjU-T5-5Jr"/>
+                    </connections>
+                </controller>
             </objects>
-            <point key="canvasLocation" x="220" y="345"/>
+            <point key="canvasLocation" x="174" y="376"/>
         </scene>
         <!--Static Notification Interface Controller-->
         <scene sceneID="AEw-b0-oYE">
@@ -26,14 +57,76 @@
                     </connections>
                 </notificationController>
             </objects>
-            <point key="canvasLocation" x="220" y="643"/>
+            <point key="canvasLocation" x="220" y="767"/>
         </scene>
         <!--Notification Controller-->
         <scene sceneID="ZPc-GJ-vnh">
             <objects>
-                <controller id="4sK-HA-Art" customClass="NotificationController" customModuleProvider="target"/>
+                <controller id="4sK-HA-Art" customClass="NotificationController" customModule="Dice_Roller_WatchKit_App" customModuleProvider="target"/>
             </objects>
-            <point key="canvasLocation" x="468" y="643"/>
+            <point key="canvasLocation" x="463" y="767"/>
+        </scene>
+        <!--Dice Select ScreenIC-->
+        <scene sceneID="rUu-7L-Szp">
+            <objects>
+                <controller hidesWhenLoading="NO" id="gGo-IM-Fc1" customClass="DiceSelectScreenIC" customModule="Dice_Roller_WatchKit_Extension">
+                    <items>
+                        <group width="1" alignment="left" layout="vertical" id="HeR-VY-Ndd">
+                            <items>
+                                <label width="1" alignment="center" text="Pick A Dice" textAlignment="center" id="NGR-Cf-V05"/>
+                            </items>
+                        </group>
+                        <table alignment="left" id="Dq3-vf-I68">
+                            <items>
+                                <tableRow identifier="cell" id="dX6-xF-lXA" customClass="diceRow" customModule="Dice_Roller_WatchKit_Extension">
+                                    <group key="rootItem" width="1" height="37.5" alignment="left" id="zFI-vJ-UUU">
+                                        <items>
+                                            <imageView width="50" height="50" alignment="left" contentMode="scaleAspectFit" id="FWx-fO-eIK"/>
+                                            <label width="50" alignment="center" verticalAlignment="center" text="Label" id="xV2-d8-gXC"/>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="d4Image" destination="FWx-fO-eIK" id="CS3-lk-nhx"/>
+                                        <outlet property="d4Label" destination="xV2-d8-gXC" id="qqa-4g-ptb"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="theTable" destination="Dq3-vf-I68" id="aY5-w2-eH9"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="328" y="376"/>
+        </scene>
+        <!--QuantitySelectScreenIC-->
+        <scene sceneID="0Th-GY-2UW">
+            <objects>
+                <controller identifier="QuantitySelectScreenIC" hidesWhenLoading="NO" id="i2M-Hd-u5W" customClass="QuantitySelectScreenIC" customModule="Dice_Roller_WatchKit_Extension">
+                    <items>
+                        <group width="1" alignment="left" layout="vertical" id="Bwd-xH-LNg">
+                            <items>
+                                <label width="1" alignment="left" text="Select a QTY" textAlignment="center" id="fQm-Yu-qhk"/>
+                                <picker width="1" height="86" alignment="left" id="3WQ-J7-6Q5">
+                                    <connections>
+                                        <action selector="pickerDidChange:" destination="i2M-Hd-u5W" id="Knt-za-W0f"/>
+                                    </connections>
+                                </picker>
+                            </items>
+                        </group>
+                        <button width="1" alignment="left" title="Add Roll" id="Ms0-0X-LaY">
+                            <connections>
+                                <action selector="addRollButtonPressed" destination="i2M-Hd-u5W" id="Yg3-zM-wby"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="thePicker" destination="3WQ-J7-6Q5" id="otB-QH-Sxg"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="526" y="376"/>
         </scene>
     </scenes>
 </document>

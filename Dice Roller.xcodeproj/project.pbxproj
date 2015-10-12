@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C377A6981BBE424A00F58C8F /* pickerExampleIC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C377A6971BBE424A00F58C8F /* pickerExampleIC.swift */; settings = {ASSET_TAGS = (); }; };
 		C38474D51BBB9B91009E8331 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38474D41BBB9B91009E8331 /* AppDelegate.swift */; };
 		C38474D71BBB9B91009E8331 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38474D61BBB9B91009E8331 /* ViewController.swift */; };
 		C38474DA1BBB9B91009E8331 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C38474D81BBB9B91009E8331 /* Main.storyboard */; };
@@ -22,6 +23,21 @@
 		C38475121BBB9B91009E8331 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38475111BBB9B91009E8331 /* ExtensionDelegate.swift */; };
 		C38475141BBB9B91009E8331 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38475131BBB9B91009E8331 /* NotificationController.swift */; };
 		C38475161BBB9B91009E8331 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C38475151BBB9B91009E8331 /* Assets.xcassets */; };
+		C38475311BBBB23D009E8331 /* diceRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38475301BBBB23D009E8331 /* diceRow.swift */; settings = {ASSET_TAGS = (); }; };
+		C38475331BBBB382009E8331 /* tableExampleIC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38475321BBBB382009E8331 /* tableExampleIC.swift */; settings = {ASSET_TAGS = (); }; };
+		C38475471BBBC242009E8331 /* D100.png in Resources */ = {isa = PBXBuildFile; fileRef = C38475461BBBC242009E8331 /* D100.png */; settings = {ASSET_TAGS = (); }; };
+		C384754A1BBBC6D4009E8331 /* D4.png in Resources */ = {isa = PBXBuildFile; fileRef = C38475481BBBC6D4009E8331 /* D4.png */; settings = {ASSET_TAGS = (); }; };
+		C384754B1BBBC6D4009E8331 /* D6.png in Resources */ = {isa = PBXBuildFile; fileRef = C38475491BBBC6D4009E8331 /* D6.png */; settings = {ASSET_TAGS = (); }; };
+		C38475501BBBC6DE009E8331 /* D8.png in Resources */ = {isa = PBXBuildFile; fileRef = C384754C1BBBC6DE009E8331 /* D8.png */; settings = {ASSET_TAGS = (); }; };
+		C38475511BBBC6DE009E8331 /* D10.png in Resources */ = {isa = PBXBuildFile; fileRef = C384754D1BBBC6DE009E8331 /* D10.png */; settings = {ASSET_TAGS = (); }; };
+		C38475521BBBC6DE009E8331 /* D12.png in Resources */ = {isa = PBXBuildFile; fileRef = C384754E1BBBC6DE009E8331 /* D12.png */; settings = {ASSET_TAGS = (); }; };
+		C38475531BBBC6DE009E8331 /* D20.png in Resources */ = {isa = PBXBuildFile; fileRef = C384754F1BBBC6DE009E8331 /* D20.png */; settings = {ASSET_TAGS = (); }; };
+		C3AA477A1BCB40460083ED35 /* DiceRollerCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AA47791BCB40460083ED35 /* DiceRollerCore.swift */; settings = {ASSET_TAGS = (); }; };
+		C3AA477C1BCB4E800083ED35 /* MainScreenIC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AA477B1BCB4E800083ED35 /* MainScreenIC.swift */; settings = {ASSET_TAGS = (); }; };
+		C3AA477E1BCB4EAD0083ED35 /* DiceSelectScreenIC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AA477D1BCB4EAD0083ED35 /* DiceSelectScreenIC.swift */; settings = {ASSET_TAGS = (); }; };
+		C3AA47801BCB4F100083ED35 /* QuantitySelectScreenIC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AA477F1BCB4F100083ED35 /* QuantitySelectScreenIC.swift */; settings = {ASSET_TAGS = (); }; };
+		C3AA47821BCB5B9A0083ED35 /* Roll.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AA47811BCB5B9A0083ED35 /* Roll.swift */; settings = {ASSET_TAGS = (); }; };
+		C3AA47841BCB5E540083ED35 /* rollRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AA47831BCB5E540083ED35 /* rollRow.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +97,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C377A6971BBE424A00F58C8F /* pickerExampleIC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pickerExampleIC.swift; sourceTree = "<group>"; };
 		C38474D11BBB9B91009E8331 /* Dice Roller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dice Roller.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C38474D41BBB9B91009E8331 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C38474D61BBB9B91009E8331 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -105,6 +122,21 @@
 		C38475131BBB9B91009E8331 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		C38475151BBB9B91009E8331 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C38475171BBB9B91009E8331 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C38475301BBBB23D009E8331 /* diceRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = diceRow.swift; sourceTree = "<group>"; };
+		C38475321BBBB382009E8331 /* tableExampleIC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tableExampleIC.swift; sourceTree = "<group>"; };
+		C38475461BBBC242009E8331 /* D100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = D100.png; sourceTree = "<group>"; };
+		C38475481BBBC6D4009E8331 /* D4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = D4.png; sourceTree = "<group>"; };
+		C38475491BBBC6D4009E8331 /* D6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = D6.png; sourceTree = "<group>"; };
+		C384754C1BBBC6DE009E8331 /* D8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = D8.png; sourceTree = "<group>"; };
+		C384754D1BBBC6DE009E8331 /* D10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = D10.png; sourceTree = "<group>"; };
+		C384754E1BBBC6DE009E8331 /* D12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = D12.png; sourceTree = "<group>"; };
+		C384754F1BBBC6DE009E8331 /* D20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = D20.png; sourceTree = "<group>"; };
+		C3AA47791BCB40460083ED35 /* DiceRollerCore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiceRollerCore.swift; sourceTree = "<group>"; };
+		C3AA477B1BCB4E800083ED35 /* MainScreenIC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenIC.swift; sourceTree = "<group>"; };
+		C3AA477D1BCB4EAD0083ED35 /* DiceSelectScreenIC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiceSelectScreenIC.swift; sourceTree = "<group>"; };
+		C3AA477F1BCB4F100083ED35 /* QuantitySelectScreenIC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuantitySelectScreenIC.swift; sourceTree = "<group>"; };
+		C3AA47811BCB5B9A0083ED35 /* Roll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Roll.swift; sourceTree = "<group>"; };
+		C3AA47831BCB5E540083ED35 /* rollRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rollRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -197,6 +229,7 @@
 		C38474FD1BBB9B91009E8331 /* Dice Roller WatchKit App */ = {
 			isa = PBXGroup;
 			children = (
+				C384752D1BBBAFDF009E8331 /* Images */,
 				C38474FE1BBB9B91009E8331 /* Interface.storyboard */,
 				C38475011BBB9B91009E8331 /* Assets.xcassets */,
 				C38475031BBB9B91009E8331 /* Info.plist */,
@@ -207,7 +240,11 @@
 		C384750C1BBB9B91009E8331 /* Dice Roller WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				C384750F1BBB9B91009E8331 /* InterfaceController.swift */,
+				C3AA47891BCB5F680083ED35 /* Example Stuff */,
+				C3AA47881BCB5EF00083ED35 /* Support Objects */,
+				C3AA47871BCB5EBE0083ED35 /* Code Behinds */,
+				C3AA47861BCB5E9B0083ED35 /* Singletons */,
+				C3AA47851BCB5E5F0083ED35 /* Table Rows */,
 				C38475111BBB9B91009E8331 /* ExtensionDelegate.swift */,
 				C38475131BBB9B91009E8331 /* NotificationController.swift */,
 				C38475151BBB9B91009E8331 /* Assets.xcassets */,
@@ -223,6 +260,65 @@
 				C384750E1BBB9B91009E8331 /* PushNotificationPayload.apns */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C384752D1BBBAFDF009E8331 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C384754C1BBBC6DE009E8331 /* D8.png */,
+				C384754D1BBBC6DE009E8331 /* D10.png */,
+				C384754E1BBBC6DE009E8331 /* D12.png */,
+				C384754F1BBBC6DE009E8331 /* D20.png */,
+				C38475481BBBC6D4009E8331 /* D4.png */,
+				C38475491BBBC6D4009E8331 /* D6.png */,
+				C38475461BBBC242009E8331 /* D100.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		C3AA47851BCB5E5F0083ED35 /* Table Rows */ = {
+			isa = PBXGroup;
+			children = (
+				C3AA47831BCB5E540083ED35 /* rollRow.swift */,
+				C38475301BBBB23D009E8331 /* diceRow.swift */,
+			);
+			name = "Table Rows";
+			sourceTree = "<group>";
+		};
+		C3AA47861BCB5E9B0083ED35 /* Singletons */ = {
+			isa = PBXGroup;
+			children = (
+				C3AA47791BCB40460083ED35 /* DiceRollerCore.swift */,
+			);
+			name = Singletons;
+			sourceTree = "<group>";
+		};
+		C3AA47871BCB5EBE0083ED35 /* Code Behinds */ = {
+			isa = PBXGroup;
+			children = (
+				C3AA477B1BCB4E800083ED35 /* MainScreenIC.swift */,
+				C3AA477D1BCB4EAD0083ED35 /* DiceSelectScreenIC.swift */,
+				C3AA477F1BCB4F100083ED35 /* QuantitySelectScreenIC.swift */,
+			);
+			name = "Code Behinds";
+			sourceTree = "<group>";
+		};
+		C3AA47881BCB5EF00083ED35 /* Support Objects */ = {
+			isa = PBXGroup;
+			children = (
+				C3AA47811BCB5B9A0083ED35 /* Roll.swift */,
+			);
+			name = "Support Objects";
+			sourceTree = "<group>";
+		};
+		C3AA47891BCB5F680083ED35 /* Example Stuff */ = {
+			isa = PBXGroup;
+			children = (
+				C384750F1BBB9B91009E8331 /* InterfaceController.swift */,
+				C38475321BBBB382009E8331 /* tableExampleIC.swift */,
+				C377A6971BBE424A00F58C8F /* pickerExampleIC.swift */,
+			);
+			name = "Example Stuff";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -396,7 +492,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C384754B1BBBC6D4009E8331 /* D6.png in Resources */,
+				C38475521BBBC6DE009E8331 /* D12.png in Resources */,
+				C38475501BBBC6DE009E8331 /* D8.png in Resources */,
 				C38475021BBB9B91009E8331 /* Assets.xcassets in Resources */,
+				C38475511BBBC6DE009E8331 /* D10.png in Resources */,
+				C384754A1BBBC6D4009E8331 /* D4.png in Resources */,
+				C38475531BBBC6DE009E8331 /* D20.png in Resources */,
+				C38475471BBBC242009E8331 /* D100.png in Resources */,
 				C38475001BBB9B91009E8331 /* Interface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -441,9 +544,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3AA47801BCB4F100083ED35 /* QuantitySelectScreenIC.swift in Sources */,
 				C38475141BBB9B91009E8331 /* NotificationController.swift in Sources */,
+				C38475311BBBB23D009E8331 /* diceRow.swift in Sources */,
 				C38475121BBB9B91009E8331 /* ExtensionDelegate.swift in Sources */,
+				C3AA477E1BCB4EAD0083ED35 /* DiceSelectScreenIC.swift in Sources */,
+				C3AA47841BCB5E540083ED35 /* rollRow.swift in Sources */,
 				C38475101BBB9B91009E8331 /* InterfaceController.swift in Sources */,
+				C3AA477A1BCB40460083ED35 /* DiceRollerCore.swift in Sources */,
+				C377A6981BBE424A00F58C8F /* pickerExampleIC.swift in Sources */,
+				C3AA47821BCB5B9A0083ED35 /* Roll.swift in Sources */,
+				C3AA477C1BCB4E800083ED35 /* MainScreenIC.swift in Sources */,
+				C38475331BBBB382009E8331 /* tableExampleIC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -732,6 +844,7 @@
 				C384751C1BBB9B91009E8331 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C384751E1BBB9B91009E8331 /* Build configuration list for PBXNativeTarget "Dice Roller WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -740,6 +853,7 @@
 				C38475201BBB9B91009E8331 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C38475221BBB9B91009E8331 /* Build configuration list for PBXNativeTarget "Dice Roller" */ = {
 			isa = XCConfigurationList;
@@ -748,6 +862,7 @@
 				C38475241BBB9B91009E8331 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C38475251BBB9B91009E8331 /* Build configuration list for PBXNativeTarget "Dice RollerTests" */ = {
 			isa = XCConfigurationList;
@@ -756,6 +871,7 @@
 				C38475271BBB9B91009E8331 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C38475281BBB9B91009E8331 /* Build configuration list for PBXNativeTarget "Dice RollerUITests" */ = {
 			isa = XCConfigurationList;
@@ -764,6 +880,7 @@
 				C384752A1BBB9B91009E8331 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
